@@ -23,9 +23,10 @@ public class Juros {
         saldo = sc.nextFloat();
         
         float saldoJu = (float) (saldo * 0.004)+ saldo;
+         float saldoJu2 = (float) (saldo * 0.005)+ saldo;
         
         System.out.println("saldo com juros é:" + saldoJu);
-        
+        System.out.println("saldo com juros é:" + saldoJu2);
     }
     
 }
